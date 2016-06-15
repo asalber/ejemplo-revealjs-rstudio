@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "---\ntitle: Tutorial de reveal.js\nauthor: Alfredo Sánchez Alberca (asalber@gmail.com)\ndate: Junio de 2016\noutput: \n  revealjs::revealjs_presentation:\n    theme: black   # black - white - league - sky - beige - simple - serif - blood - night - moon - solarized\n    transition: slide   # none - fade - slide - convex - concave - zoom - page\n    center: true\n    self_contained: false\n#    lib_path: lib\n    pandoc_args: [ \"--slide-level\", \"2\" ]\n    reveal_options:\n#      slideNumber: true\n      previewLinks: true\n---\n\n## Diapositiva normal\n\nPrimer párrafo de la diapositiva.\n\nSegundo párrafo.\n\n## Diapositiva con items no ordenados\n\n- Item\n- Item\n  - Subitem\n  - Subitem\n- Item\n\n\n## Diapositiva con items ordenados\n\n1. Item\n2. Item\n3. Item\n\n\nDiapositiva con tabla\n---------------------\n\n| Columna Izquierda | Columna Centrada | Columna Derecha |\n|:------------------|:----------------:|----------------:|\n| Contenido 1       |   Contenido 2    |     Contenido 3 |\n| Contenido 4       |   Contenido 5    |     Contenido 6 |\n\n\n## Diapositiva con imágenes\n\n<img src=\"img/logo_pacd_1200.png\" style=\"width: 600px;\"/>\n\nLas imágenes deben guardarse en la carpeta **img**.\n\n\n## Diapositiva con fondo de color {data-background=#ff0000}\n\nUsa esta diapositiva para resaltar alto *importante*.\n\n## Diapositiva con imagen de fondo {data-background=\"https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg\"}\n\n\n\n## Diapositiva con elementos graduales\n\n> - Primer item\n> - Segundo item\n> - Tercer item\n\n",
+    "created" : 1466007399937.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2271082916",
+    "id" : "E20490DE",
+    "lastKnownWriteTime" : 1466007080,
+    "last_content_update" : 1466007080,
+    "path" : "/media/alf/datos/tmp/R/revealjs/tutorial-revealjs.Rmd",
+    "project_path" : "tutorial-revealjs.Rmd",
+    "properties" : {
+        "docOutlineVisible" : "0"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
